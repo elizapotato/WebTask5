@@ -29,12 +29,12 @@ body {
     display: flex;
     flex-direction: column;
     padding: 15px;
-    background-color: lightblue;
+    background-color: rgb(171, 250, 250);
     border-bottom: 2px solid black;
 }
 
 .new:hover {
-    background-color: red;
+    background-color: rgb(240, 64, 64);
 }
 
 .new__text {
@@ -44,10 +44,10 @@ body {
     width: 200px;
     color: white;
     padding: 10px;
-    border-radius: 3px;
-    background: rgb(64,199,129);
-    box-shadow: 0 -3px rgb(53,167,110) inset;
-    transition: 0.2s;
+    border-radius: 2px;
+    background:  rgb(0, 117, 20) linear-gradient(rgb(28, 255, 20), rgb(9, 114, 0));
+    box-shadow:  .0em .0em .3em rgb(0, 0, 0);
+    transition: 0.3s;
     align-self: center;
     cursor: pointer;
   }
